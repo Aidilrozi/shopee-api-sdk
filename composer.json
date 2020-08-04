@@ -1,0 +1,48 @@
+{
+  "name": "adlrz/shopee-php",
+  "description": "Shopee Partner API PHP SDK",
+  "type": "library",
+  "keywords": [
+    "shopee",
+    "openapi"
+  ],
+  "homepage": "https://github.com/Aidilrozi/shopee-php.git",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/Aidilrozi/shopee-php/issues"
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.14",
+    "phpunit/phpunit": "^7.5",
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shopee\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Shopee\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "check": [
+      "@lint",
+      "@test"
+    ],
+    "lint": "phpcs",
+    "lint-fix": "phpcbf",
+    "phpstan": "phpstan analyse src --level=1",
+    "test": "phpunit",
+    "coverage-html": "phpunit --coverage-html=build/coverage-html"
+  }
+}
