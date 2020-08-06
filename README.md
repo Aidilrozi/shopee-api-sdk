@@ -1,9 +1,9 @@
-# shopee-php
+# shopee-api-sdk
 
-[![Build Status](https://travis-ci.org/minchao/shopee-php.svg?branch=master)](https://travis-ci.org/minchao/shopee-php)
-[![Latest Stable Version](https://poser.pugx.org/minchao/shopee-php/v/stable)](https://packagist.org/packages/minchao/shopee-php)
-[![Latest Unstable Version](https://poser.pugx.org/minchao/shopee-php/v/unstable)](https://packagist.org/packages/minchao/shopee-php)
-[![composer.lock](https://poser.pugx.org/minchao/shopee-php/composerlock)](https://packagist.org/packages/minchao/shopee-php)
+[![Build Status](https://travis-ci.org/Aidilrozi/shopee-api-sdk.svg?branch=master)](https://travis-ci.org/Aidilrozi/shopee-api-sdk)
+[![Latest Stable Version](https://poser.pugx.org/Aidilrozi/shopee-api-sdk/v/stable)](https://packagist.org/packages/Aidilrozi/shopee-api-sdk)
+[![Latest Unstable Version](https://poser.pugx.org/Aidilrozi/shopee-api-sdk/v/unstable)](https://packagist.org/packages/Aidilrozi/shopee-api-sdk)
+[![composer.lock](https://poser.pugx.org/Aidilrozi/shopee-api-sdk/composerlock)](https://packagist.org/packages/Aidilrozi/shopee-api-sdk)
 
 This is a [Shopee Partner API](https://open.shopee.com/documents) Client for PHP.
 
@@ -18,7 +18,7 @@ This is a [Shopee Partner API](https://open.shopee.com/documents) Client for PHP
 Execute the following command to get the package:
 
 ```console
-$ composer require minchao/shopee-php
+$ composer require Aidilrozi/shopee-api-sdk
 ```
 
 ## Usage
