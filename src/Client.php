@@ -43,7 +43,7 @@ class Client
 
     public const DEFAULT_BASE_URL = 'https://partner.shopeemobile.com';
 
-    public const DEFAULT_USER_AGENT = 'shopee-php/' . self::VERSION;
+    public const DEFAULT_USER_AGENT = 'Aidilrozi/shopee-api-sdk/' . self::VERSION;
 
     public const ENV_SECRET_NAME = '66ac78e929ada19edef6c732f55150ffdbe072588724cd0d4066542ec693e1b1';
 

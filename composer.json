@@ -1,15 +1,15 @@
 {
-  "name": "adlrz/shopee-php",
+  "name": "Aidilrozi/shopee-api-sdk",
   "description": "Shopee Partner API PHP SDK",
   "type": "library",
   "keywords": [
     "shopee",
     "openapi"
   ],
-  "homepage": "https://github.com/Aidilrozi/shopee-php.git",
+  "homepage": "https://github.com/Aidilrozi/shopee-api-sdk.git",
   "license": "BSD-3-Clause",
   "support": {
-    "issues": "https://github.com/Aidilrozi/shopee-php/issues"
+    "issues": "https://github.com/Aidilrozi/shopee-api-sdk/issues"
   },
   "require": {
     "php": ">=7.1",
